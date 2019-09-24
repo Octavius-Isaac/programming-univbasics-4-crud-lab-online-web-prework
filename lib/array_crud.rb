@@ -30,7 +30,6 @@ end
 
 def retrieve_element_from_index(array, index_number)
 index_number = [array]
-index_number.index(array)
 index_number[0]
 end
 
