@@ -1,25 +1,31 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  puppy = ["Pitbull", "Pug", "Boxer", "German Sheppard"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  result = [array]
+  result << element 
+  p result
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  result = [array]
+  result.unshift (element)
+  p result
 end
 
 def remove_element_from_end_of_array(array)
-  
+  array = array.pop
+  p array 
 end
 
 def remove_element_from_start_of_array(array)
-  
+  array = array.shift 
+  p array 
 end
 
 def retrieve_element_from_index(array, index_number)
